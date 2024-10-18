@@ -1,0 +1,388 @@
+16:38:37.933 [main] INFO  d.s.c.ls.C4LanguageServerLauncher - Starting Socket Connection
+16:38:37.955 [main] INFO  d.s.c.ls.C4LanguageServerLauncher - READY_TO_CONNECT
+16:38:37.959 [main] INFO  d.s.c.ls.C4LanguageServerLauncher - Launching C4LanguageServer started
+16:38:38.064 [main] INFO  d.s.c.ls.service.C4LanguageServer - getTextDocumentService
+16:38:38.096 [main] INFO  d.s.c.ls.service.C4LanguageServer - getTextDocumentService
+16:38:38.097 [main] INFO  d.s.c.ls.service.C4LanguageServer - getWorkspaceService
+16:38:38.101 [main] INFO  d.s.c.ls.service.C4LanguageServer - connect
+16:38:38.129 [pool-1-thread-1] INFO  d.s.c.ls.service.C4LanguageServer - initialize
+16:38:38.147 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - didOpen file:///Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.147 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDiagnostics 0
+16:38:38.149 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.autoformat.indent
+16:38:38.150 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - documentColor
+16:38:38.150 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:38:38.155 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - createModel /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.157 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - Parsing...
+16:38:38.166 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 1, contextId: 1627639795, contextName WorkspaceDslContext
+16:38:38.166 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.169 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 9, contextId: 1009146765, contextName ModelDslContext
+16:38:38.169 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.169 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 10, contextId: 1035441016, contextName PropertiesDslContext
+16:38:38.169 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.169 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 12, contextId: 1035441016, contextName PropertiesDslContext
+16:38:38.169 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.171 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: user, modelId: 1 at linenumber: workspace.dsl, 14
+16:38:38.171 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.172 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: companion_search, modelId: 2 at linenumber: workspace.dsl, 15
+16:38:38.172 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.172 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 15, contextId: 491588441, contextName SoftwareSystemDslContext
+16:38:38.172 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.172 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: main_service, modelId: 3 at linenumber: workspace.dsl, 18
+16:38:38.172 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.172 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 18, contextId: 75451571, contextName ContainerDslContext
+16:38:38.172 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.175 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 20, contextId: 75451571, contextName ContainerDslContext
+16:38:38.175 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.175 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: user_service, modelId: 4 at linenumber: workspace.dsl, 22
+16:38:38.175 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.175 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 22, contextId: 1475834050, contextName ContainerDslContext
+16:38:38.175 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.175 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 24, contextId: 1475834050, contextName ContainerDslContext
+16:38:38.175 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.176 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: route_service, modelId: 5 at linenumber: workspace.dsl, 26
+16:38:38.176 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.176 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 26, contextId: 1868699715, contextName ContainerDslContext
+16:38:38.176 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.178 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 28, contextId: 1868699715, contextName ContainerDslContext
+16:38:38.178 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.179 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 30, contextId: 109280157, contextName SoftwareSystemDslContext
+16:38:38.179 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.180 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: user_database, modelId: 6 at linenumber: workspace.dsl, 31
+16:38:38.180 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.180 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 31, contextId: 817616228, contextName ContainerDslContext
+16:38:38.180 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.180 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 35, contextId: 817616228, contextName ContainerDslContext
+16:38:38.180 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.180 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: trip_database, modelId: 7 at linenumber: workspace.dsl, 37
+16:38:38.180 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.180 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 37, contextId: 831374213, contextName ContainerDslContext
+16:38:38.180 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.181 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 41, contextId: 831374213, contextName ContainerDslContext
+16:38:38.181 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.181 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: route_database, modelId: 8 at linenumber: workspace.dsl, 43
+16:38:38.181 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.181 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 43, contextId: 693883762, contextName ContainerDslContext
+16:38:38.181 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.181 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 47, contextId: 693883762, contextName ContainerDslContext
+16:38:38.181 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.181 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 48, contextId: 109280157, contextName SoftwareSystemDslContext
+16:38:38.181 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.183 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 4->6, identifier: null, at linenumber: workspace.dsl, 50
+16:38:38.183 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.183 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 5->8, identifier: null, at linenumber: workspace.dsl, 52
+16:38:38.183 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.184 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 3->4, identifier: null, at linenumber: workspace.dsl, 54
+16:38:38.184 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.184 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 3->5, identifier: null, at linenumber: workspace.dsl, 55
+16:38:38.184 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.184 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 3->7, identifier: null, at linenumber: workspace.dsl, 56
+16:38:38.184 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.184 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->3, identifier: null, at linenumber: workspace.dsl, 58
+16:38:38.184 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.184 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 59, contextId: 491588441, contextName SoftwareSystemDslContext
+16:38:38.184 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.184 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->2, identifier: null, at linenumber: workspace.dsl, 61
+16:38:38.184 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.185 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 63, contextId: 49195096, contextName DeploymentEnvironmentDslContext
+16:38:38.185 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.188 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: null, modelId: 17 at linenumber: workspace.dsl, 64
+16:38:38.188 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.188 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 64, contextId: 557416154, contextName DeploymentNodeDslContext
+16:38:38.188 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.190 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: null, modelId: 18 at linenumber: workspace.dsl, 65
+16:38:38.190 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.190 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 66, contextId: 557416154, contextName DeploymentNodeDslContext
+16:38:38.190 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.190 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: null, modelId: 19 at linenumber: workspace.dsl, 68
+16:38:38.190 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.190 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 68, contextId: 1079589171, contextName DeploymentNodeDslContext
+16:38:38.190 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.190 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: null, modelId: 20 at linenumber: workspace.dsl, 69
+16:38:38.190 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.190 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 70, contextId: 1079589171, contextName DeploymentNodeDslContext
+16:38:38.190 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.190 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: null, modelId: 21 at linenumber: workspace.dsl, 72
+16:38:38.190 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.190 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 72, contextId: 1155991672, contextName DeploymentNodeDslContext
+16:38:38.190 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.191 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: null, modelId: 22 at linenumber: workspace.dsl, 73
+16:38:38.191 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.191 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 75, contextId: 1155991672, contextName DeploymentNodeDslContext
+16:38:38.191 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.193 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: null, modelId: 25 at linenumber: workspace.dsl, 77
+16:38:38.193 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.193 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 77, contextId: 1618236654, contextName DeploymentNodeDslContext
+16:38:38.193 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.193 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: null, modelId: 26 at linenumber: workspace.dsl, 79
+16:38:38.193 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.193 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 79, contextId: 1671821468, contextName DeploymentNodeDslContext
+16:38:38.193 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.193 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: null, modelId: 27 at linenumber: workspace.dsl, 80
+16:38:38.194 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.194 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 81, contextId: 1671821468, contextName DeploymentNodeDslContext
+16:38:38.194 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.194 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: null, modelId: 29 at linenumber: workspace.dsl, 83
+16:38:38.194 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.194 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 83, contextId: 792438758, contextName DeploymentNodeDslContext
+16:38:38.194 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.194 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: null, modelId: 30 at linenumber: workspace.dsl, 84
+16:38:38.194 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.194 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 86, contextId: 792438758, contextName DeploymentNodeDslContext
+16:38:38.194 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.194 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: null, modelId: 32 at linenumber: workspace.dsl, 88
+16:38:38.194 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.194 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 88, contextId: 1160430909, contextName DeploymentNodeDslContext
+16:38:38.194 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.195 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: null, modelId: 33 at linenumber: workspace.dsl, 89
+16:38:38.195 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.195 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 90, contextId: 1160430909, contextName DeploymentNodeDslContext
+16:38:38.195 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.195 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 91, contextId: 1618236654, contextName DeploymentNodeDslContext
+16:38:38.195 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.195 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 92, contextId: 49195096, contextName DeploymentEnvironmentDslContext
+16:38:38.195 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.195 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 93, contextId: 1009146765, contextName ModelDslContext
+16:38:38.195 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.195 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 95, contextId: 1927972980, contextName ViewsDslContext
+16:38:38.195 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.196 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 98, contextId: 2100363593, contextName PropertiesDslContext
+16:38:38.197 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.197 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 100, contextId: 2100363593, contextName PropertiesDslContext
+16:38:38.197 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.197 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 102, contextId: 2130929734, contextName InlineScriptDslContext
+16:38:38.197 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.197 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 105, contextId: 2130929734, contextName InlineScriptDslContext
+16:38:38.197 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.197 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.i.InterceptParserAspect - Scripting Block is ignored
+16:38:38.199 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: UC01 at linenumber workspace.dsl, 107
+16:38:38.199 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.199 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 107, contextId: 850406749, contextName DynamicViewDslContext
+16:38:38.199 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.201 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 112, contextId: 850406749, contextName DynamicViewDslContext
+16:38:38.201 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.201 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: UC02 at linenumber workspace.dsl, 114
+16:38:38.201 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.201 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 114, contextId: 1813006898, contextName DynamicViewDslContext
+16:38:38.201 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.202 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 119, contextId: 1813006898, contextName DynamicViewDslContext
+16:38:38.202 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.202 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: UC03 at linenumber workspace.dsl, 121
+16:38:38.202 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.202 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 121, contextId: 459241949, contextName DynamicViewDslContext
+16:38:38.202 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.202 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 126, contextId: 459241949, contextName DynamicViewDslContext
+16:38:38.202 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.203 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: UC04 at linenumber workspace.dsl, 128
+16:38:38.203 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.203 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 128, contextId: 594297973, contextName DynamicViewDslContext
+16:38:38.203 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.203 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 135, contextId: 594297973, contextName DynamicViewDslContext
+16:38:38.203 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.203 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: UC05 at linenumber workspace.dsl, 137
+16:38:38.203 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.203 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 137, contextId: 1871254178, contextName DynamicViewDslContext
+16:38:38.203 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.204 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 144, contextId: 1871254178, contextName DynamicViewDslContext
+16:38:38.204 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.204 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: UC06 at linenumber workspace.dsl, 146
+16:38:38.204 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.204 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 146, contextId: 2099656580, contextName DynamicViewDslContext
+16:38:38.204 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.204 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 151, contextId: 2099656580, contextName DynamicViewDslContext
+16:38:38.204 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.205 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: UC07 at linenumber workspace.dsl, 153
+16:38:38.205 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.205 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 153, contextId: 364006347, contextName DynamicViewDslContext
+16:38:38.205 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.205 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 159, contextId: 364006347, contextName DynamicViewDslContext
+16:38:38.205 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.205 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: UC08 at linenumber workspace.dsl, 161
+16:38:38.205 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.206 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 161, contextId: 556314138, contextName DynamicViewDslContext
+16:38:38.206 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.206 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 167, contextId: 556314138, contextName DynamicViewDslContext
+16:38:38.206 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.206 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: UC09 at linenumber workspace.dsl, 169
+16:38:38.206 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.206 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 169, contextId: 1579929078, contextName DynamicViewDslContext
+16:38:38.206 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.206 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 173, contextId: 1579929078, contextName DynamicViewDslContext
+16:38:38.206 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.206 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 175, contextId: 637856184, contextName StylesDslContext
+16:38:38.206 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.208 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 176, contextId: 1475056577, contextName ElementStyleDslContext
+16:38:38.208 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.208 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 178, contextId: 1475056577, contextName ElementStyleDslContext
+16:38:38.208 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.208 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 179, contextId: 637856184, contextName StylesDslContext
+16:38:38.208 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.208 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 180, contextId: 1927972980, contextName ViewsDslContext
+16:38:38.208 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.208 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 181, contextId: 1627639795, contextName WorkspaceDslContext
+16:38:38.208 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.208 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - Parsing finished
+16:38:38.210 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c4dsl.ls.model.C4DocumentModel - setWorkspace Сервис поиска попутчиков
+16:38:38.210 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c4dsl.ls.model.C4DocumentModel - setValid true
+16:38:38.210 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDiagnostics
+16:38:38.210 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.210 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:38:38.210 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.provider.C4ColorProvider - calcDocumentColors file:/Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.210 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.provider.C4ColorProvider -                    []
+16:38:38.526 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+16:38:38.526 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:38:38.526 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.526 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:38:38.598 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - semanticTokensFull
+16:38:38.599 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:38:38.599 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:38:38.599 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:38:38.605 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.l.p.C4SemanticTokenProvider - Semantik Tokens at [49, 12, 12, 14, 0, 0, 16, 13, 14, 0, 2, 12, 13, 14, 0, 0, 17, 14, 14, 0, 2, 12, 12, 14, 0, 0, 16, 12, 14, 0, 1, 12, 12, 14, 0, 0, 16, 13, 14, 0, 1, 12, 12, 14, 0, 0, 16, 13, 14, 0, 2, 12, 4, 14, 0, 0, 8, 12, 14, 0, 3, 8, 4, 14, 0, 0, 8, 16, 14, 0, 4, 51, 12, 14, 0, 4, 51, 13, 14, 0, 4, 51, 12, 14, 0, 7, 55, 13, 14, 0, 4, 55, 13, 14, 0, 5, 55, 14, 14, 0, 18, 16, 16, 14, 0, 7, 16, 16, 14, 0, 7, 16, 16, 14, 0, 7, 16, 16, 14, 0, 9, 16, 16, 14, 0, 9, 16, 16, 14, 0, 7, 16, 16, 14, 0, 8, 16, 16, 14, 0, 8, 16, 16, 14, 0]
+16:39:26.471 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+16:39:26.472 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+16:39:26.472 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:39:26.472 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:39:26.472 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:39:26.845 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+16:39:26.846 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:39:26.846 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:39:26.846 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:41:34.168 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+16:41:34.169 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:41:34.169 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:41:34.169 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:43:37.031 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+16:43:37.032 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - documentColor
+16:43:37.032 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+16:43:37.032 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:43:37.032 [ForkJoinPool.commonPool-worker-5] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:43:37.032 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:43:37.032 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:43:37.032 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:43:37.032 [ForkJoinPool.commonPool-worker-5] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:43:37.032 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.provider.C4ColorProvider - calcDocumentColors file:/Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:43:37.032 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.provider.C4ColorProvider -                    []
+16:43:37.411 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+16:43:37.411 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:43:37.412 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:43:37.412 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:43:37.481 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - semanticTokensFull
+16:43:37.481 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:43:37.481 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:43:37.481 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:43:37.482 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.l.p.C4SemanticTokenProvider - Semantik Tokens at [49, 12, 12, 14, 0, 0, 16, 13, 14, 0, 2, 12, 13, 14, 0, 0, 17, 14, 14, 0, 2, 12, 12, 14, 0, 0, 16, 12, 14, 0, 1, 12, 12, 14, 0, 0, 16, 13, 14, 0, 1, 12, 12, 14, 0, 0, 16, 13, 14, 0, 2, 12, 4, 14, 0, 0, 8, 12, 14, 0, 3, 8, 4, 14, 0, 0, 8, 16, 14, 0, 4, 51, 12, 14, 0, 4, 51, 13, 14, 0, 4, 51, 12, 14, 0, 7, 55, 13, 14, 0, 4, 55, 13, 14, 0, 5, 55, 14, 14, 0, 18, 16, 16, 14, 0, 7, 16, 16, 14, 0, 7, 16, 16, 14, 0, 7, 16, 16, 14, 0, 9, 16, 16, 14, 0, 9, 16, 16, 14, 0, 7, 16, 16, 14, 0, 8, 16, 16, 14, 0, 8, 16, 16, 14, 0]
+16:43:44.517 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+16:43:44.517 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - documentColor
+16:43:44.517 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+16:43:44.518 [ForkJoinPool.commonPool-worker-5] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:43:44.518 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:43:44.518 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:43:44.518 [ForkJoinPool.commonPool-worker-5] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:43:44.518 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:43:44.518 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.provider.C4ColorProvider - calcDocumentColors file:/Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:43:44.518 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:43:44.518 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.provider.C4ColorProvider -                    []
+16:43:44.895 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+16:43:44.895 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:43:44.895 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:43:44.895 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:43:44.965 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - semanticTokensFull
+16:43:44.966 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:43:44.966 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:43:44.966 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:43:44.966 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.l.p.C4SemanticTokenProvider - Semantik Tokens at [49, 12, 12, 14, 0, 0, 16, 13, 14, 0, 2, 12, 13, 14, 0, 0, 17, 14, 14, 0, 2, 12, 12, 14, 0, 0, 16, 12, 14, 0, 1, 12, 12, 14, 0, 0, 16, 13, 14, 0, 1, 12, 12, 14, 0, 0, 16, 13, 14, 0, 2, 12, 4, 14, 0, 0, 8, 12, 14, 0, 3, 8, 4, 14, 0, 0, 8, 16, 14, 0, 4, 51, 12, 14, 0, 4, 51, 13, 14, 0, 4, 51, 12, 14, 0, 7, 55, 13, 14, 0, 4, 55, 13, 14, 0, 5, 55, 14, 14, 0, 18, 16, 16, 14, 0, 7, 16, 16, 14, 0, 7, 16, 16, 14, 0, 7, 16, 16, 14, 0, 9, 16, 16, 14, 0, 9, 16, 16, 14, 0, 7, 16, 16, 14, 0, 8, 16, 16, 14, 0, 8, 16, 16, 14, 0]
+16:48:08.625 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - documentColor
+16:48:08.625 [ForkJoinPool.commonPool-worker-6] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+16:48:08.626 [ForkJoinPool.commonPool-worker-6] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+16:48:08.627 [ForkJoinPool.commonPool-worker-7] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:48:08.627 [ForkJoinPool.commonPool-worker-6] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:48:08.627 [ForkJoinPool.commonPool-worker-7] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:48:08.627 [ForkJoinPool.commonPool-worker-6] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:48:08.627 [ForkJoinPool.commonPool-worker-7] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:48:08.627 [ForkJoinPool.commonPool-worker-6] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:48:08.627 [ForkJoinPool.commonPool-worker-7] DEBUG d.s.c.ls.provider.C4ColorProvider - calcDocumentColors file:/Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:48:08.627 [ForkJoinPool.commonPool-worker-7] DEBUG d.s.c.ls.provider.C4ColorProvider -                    []
+16:48:09.072 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - semanticTokensFull
+16:48:09.072 [ForkJoinPool.commonPool-worker-6] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:48:09.072 [ForkJoinPool.commonPool-worker-6] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:48:09.072 [ForkJoinPool.commonPool-worker-6] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:48:09.073 [ForkJoinPool.commonPool-worker-6] DEBUG d.s.c.l.p.C4SemanticTokenProvider - Semantik Tokens at [49, 12, 12, 14, 0, 0, 16, 13, 14, 0, 2, 12, 13, 14, 0, 0, 17, 14, 14, 0, 2, 12, 12, 14, 0, 0, 16, 12, 14, 0, 1, 12, 12, 14, 0, 0, 16, 13, 14, 0, 1, 12, 12, 14, 0, 0, 16, 13, 14, 0, 2, 12, 4, 14, 0, 0, 8, 12, 14, 0, 3, 8, 4, 14, 0, 0, 8, 16, 14, 0, 4, 51, 12, 14, 0, 4, 51, 13, 14, 0, 4, 51, 12, 14, 0, 7, 55, 13, 14, 0, 4, 55, 13, 14, 0, 5, 55, 14, 14, 0, 18, 16, 16, 14, 0, 7, 16, 16, 14, 0, 7, 16, 16, 14, 0, 7, 16, 16, 14, 0, 9, 16, 16, 14, 0, 9, 16, 16, 14, 0, 7, 16, 16, 14, 0, 8, 16, 16, 14, 0, 8, 16, 16, 14, 0]
+16:48:47.351 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+16:48:47.351 [ForkJoinPool.commonPool-worker-6] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:48:47.351 [ForkJoinPool.commonPool-worker-6] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:48:47.351 [ForkJoinPool.commonPool-worker-6] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:50:32.234 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+16:50:32.234 [ForkJoinPool.commonPool-worker-7] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:50:32.234 [ForkJoinPool.commonPool-worker-7] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:50:32.234 [ForkJoinPool.commonPool-worker-7] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:51:36.841 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+16:51:36.842 [ForkJoinPool.commonPool-worker-8] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:51:36.842 [ForkJoinPool.commonPool-worker-8] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:51:36.842 [ForkJoinPool.commonPool-worker-8] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:51:52.835 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - documentColor
+16:51:52.836 [ForkJoinPool.commonPool-worker-8] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+16:51:52.836 [ForkJoinPool.commonPool-worker-8] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+16:51:52.836 [ForkJoinPool.commonPool-worker-9] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:51:52.836 [ForkJoinPool.commonPool-worker-8] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:51:52.836 [ForkJoinPool.commonPool-worker-9] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:51:52.836 [ForkJoinPool.commonPool-worker-9] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:51:52.836 [ForkJoinPool.commonPool-worker-9] DEBUG d.s.c.ls.provider.C4ColorProvider - calcDocumentColors file:/Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:51:52.836 [ForkJoinPool.commonPool-worker-9] DEBUG d.s.c.ls.provider.C4ColorProvider -                    []
+16:51:52.836 [ForkJoinPool.commonPool-worker-8] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:51:52.836 [ForkJoinPool.commonPool-worker-8] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:51:53.214 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+16:51:53.214 [ForkJoinPool.commonPool-worker-8] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:51:53.214 [ForkJoinPool.commonPool-worker-8] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:51:53.214 [ForkJoinPool.commonPool-worker-8] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:51:53.283 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - semanticTokensFull
+16:51:53.283 [ForkJoinPool.commonPool-worker-8] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:51:53.283 [ForkJoinPool.commonPool-worker-8] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:51:53.283 [ForkJoinPool.commonPool-worker-8] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:51:53.284 [ForkJoinPool.commonPool-worker-8] DEBUG d.s.c.l.p.C4SemanticTokenProvider - Semantik Tokens at [49, 12, 12, 14, 0, 0, 16, 13, 14, 0, 2, 12, 13, 14, 0, 0, 17, 14, 14, 0, 2, 12, 12, 14, 0, 0, 16, 12, 14, 0, 1, 12, 12, 14, 0, 0, 16, 13, 14, 0, 1, 12, 12, 14, 0, 0, 16, 13, 14, 0, 2, 12, 4, 14, 0, 0, 8, 12, 14, 0, 3, 8, 4, 14, 0, 0, 8, 16, 14, 0, 4, 51, 12, 14, 0, 4, 51, 13, 14, 0, 4, 51, 12, 14, 0, 7, 55, 13, 14, 0, 4, 55, 13, 14, 0, 5, 55, 14, 14, 0, 18, 16, 16, 14, 0, 7, 16, 16, 14, 0, 7, 16, 16, 14, 0, 7, 16, 16, 14, 0, 9, 16, 16, 14, 0, 9, 16, 16, 14, 0, 7, 16, 16, 14, 0, 8, 16, 16, 14, 0, 8, 16, 16, 14, 0]
+16:58:40.068 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+16:58:40.068 [ForkJoinPool.commonPool-worker-10] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:58:40.068 [ForkJoinPool.commonPool-worker-10] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:58:40.068 [ForkJoinPool.commonPool-worker-10] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:59:31.432 [ForkJoinPool.commonPool-worker-10] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+16:59:31.432 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - documentColor
+16:59:31.432 [ForkJoinPool.commonPool-worker-10] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+16:59:31.432 [ForkJoinPool.commonPool-worker-10] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:59:31.432 [ForkJoinPool.commonPool-worker-11] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:59:31.432 [ForkJoinPool.commonPool-worker-10] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:59:31.432 [ForkJoinPool.commonPool-worker-11] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:59:31.432 [ForkJoinPool.commonPool-worker-10] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:59:31.432 [ForkJoinPool.commonPool-worker-11] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:59:31.432 [ForkJoinPool.commonPool-worker-11] DEBUG d.s.c.ls.provider.C4ColorProvider - calcDocumentColors file:/Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:59:31.432 [ForkJoinPool.commonPool-worker-11] DEBUG d.s.c.ls.provider.C4ColorProvider -                    []
+16:59:31.808 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+16:59:31.808 [ForkJoinPool.commonPool-worker-10] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:59:31.808 [ForkJoinPool.commonPool-worker-10] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:59:31.809 [ForkJoinPool.commonPool-worker-10] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:59:31.881 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - semanticTokensFull
+16:59:31.881 [ForkJoinPool.commonPool-worker-10] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+16:59:31.881 [ForkJoinPool.commonPool-worker-10] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+16:59:31.881 [ForkJoinPool.commonPool-worker-10] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+16:59:31.882 [ForkJoinPool.commonPool-worker-10] DEBUG d.s.c.l.p.C4SemanticTokenProvider - Semantik Tokens at [49, 12, 12, 14, 0, 0, 16, 13, 14, 0, 2, 12, 13, 14, 0, 0, 17, 14, 14, 0, 2, 12, 12, 14, 0, 0, 16, 12, 14, 0, 1, 12, 12, 14, 0, 0, 16, 13, 14, 0, 1, 12, 12, 14, 0, 0, 16, 13, 14, 0, 2, 12, 4, 14, 0, 0, 8, 12, 14, 0, 3, 8, 4, 14, 0, 0, 8, 16, 14, 0, 4, 51, 12, 14, 0, 4, 51, 13, 14, 0, 4, 51, 12, 14, 0, 7, 55, 13, 14, 0, 4, 55, 13, 14, 0, 5, 55, 14, 14, 0, 18, 16, 16, 14, 0, 7, 16, 16, 14, 0, 7, 16, 16, 14, 0, 7, 16, 16, 14, 0, 9, 16, 16, 14, 0, 9, 16, 16, 14, 0, 7, 16, 16, 14, 0, 8, 16, 16, 14, 0, 8, 16, 16, 14, 0]
+17:05:42.477 [ForkJoinPool.commonPool-worker-12] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+17:05:42.477 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - documentColor
+17:05:42.477 [ForkJoinPool.commonPool-worker-12] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+17:05:42.477 [ForkJoinPool.commonPool-worker-12] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+17:05:42.477 [ForkJoinPool.commonPool-worker-12] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+17:05:42.477 [ForkJoinPool.commonPool-worker-12] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+17:05:42.477 [ForkJoinPool.commonPool-worker-13] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+17:05:42.477 [ForkJoinPool.commonPool-worker-13] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+17:05:42.477 [ForkJoinPool.commonPool-worker-13] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+17:05:42.477 [ForkJoinPool.commonPool-worker-13] DEBUG d.s.c.ls.provider.C4ColorProvider - calcDocumentColors file:/Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+17:05:42.477 [ForkJoinPool.commonPool-worker-13] DEBUG d.s.c.ls.provider.C4ColorProvider -                    []
+17:05:42.853 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+17:05:42.853 [ForkJoinPool.commonPool-worker-12] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+17:05:42.853 [ForkJoinPool.commonPool-worker-12] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+17:05:42.854 [ForkJoinPool.commonPool-worker-12] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+17:05:42.926 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - semanticTokensFull
+17:05:42.926 [ForkJoinPool.commonPool-worker-12] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+17:05:42.926 [ForkJoinPool.commonPool-worker-12] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+17:05:42.926 [ForkJoinPool.commonPool-worker-12] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+17:05:42.927 [ForkJoinPool.commonPool-worker-12] DEBUG d.s.c.l.p.C4SemanticTokenProvider - Semantik Tokens at [49, 12, 12, 14, 0, 0, 16, 13, 14, 0, 2, 12, 13, 14, 0, 0, 17, 14, 14, 0, 2, 12, 12, 14, 0, 0, 16, 12, 14, 0, 1, 12, 12, 14, 0, 0, 16, 13, 14, 0, 1, 12, 12, 14, 0, 0, 16, 13, 14, 0, 2, 12, 4, 14, 0, 0, 8, 12, 14, 0, 3, 8, 4, 14, 0, 0, 8, 16, 14, 0, 4, 51, 12, 14, 0, 4, 51, 13, 14, 0, 4, 51, 12, 14, 0, 7, 55, 13, 14, 0, 4, 55, 13, 14, 0, 5, 55, 14, 14, 0, 18, 16, 16, 14, 0, 7, 16, 16, 14, 0, 7, 16, 16, 14, 0, 7, 16, 16, 14, 0, 9, 16, 16, 14, 0, 9, 16, 16, 14, 0, 7, 16, 16, 14, 0, 8, 16, 16, 14, 0, 8, 16, 16, 14, 0]
+17:05:47.035 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+17:05:47.035 [ForkJoinPool.commonPool-worker-12] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+17:05:47.035 [ForkJoinPool.commonPool-worker-12] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: /Users/SLAST1/MAI/mai_arch_labs/hl_mai_lab_00/workspace.dsl
+17:05:47.035 [ForkJoinPool.commonPool-worker-12] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
